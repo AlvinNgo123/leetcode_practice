@@ -1,0 +1,2 @@
+Write a function, where given a number n, returns the nth fibonacci number.
+The fibonacci number is calculated the fibonacci sequence where each number is the sum of the preceding ones, starting from 0 to 1.
