@@ -1,2 +1,2 @@
- Write a function that takes in an array and returns a sorted array of the three largest numbers in that array.
+ Write a function that takes in an array of at least 3 nums and returns a sorted array of the three largest numbers in that array.
  This should be done without sorting the array and the array (as well as the sorted array) can contain duplicates.
