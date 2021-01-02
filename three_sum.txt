@@ -1,4 +1,4 @@
 Write a function, where given an array "nums" of n integers, it is able to return all unique triplets (in list form) that sums to zero.
 This means that the triplets a + b + c = 0 and the solution set must not contain duplicate triplets. 
 The numbers in each triplet should be ordered in ascending order.
-If no triplet sums to 0, return an empty error. 
+If no triplet sums to 0, return an empty error.  
