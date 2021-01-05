@@ -1,3 +1,4 @@
-Write a function that takes in an array of ints called "nums" and moves all the 0's to the end of the list whlie still remaining the relative order of the non-zero elements.
+Write a function that takes in an array of ints called "nums" and moves all the 0's to the end of the list.
+The function does not need to maintain the order of the other integers BUT:
 You must do this in-place without making a copy of the array.
 You must also minimize the total number of operations. 
