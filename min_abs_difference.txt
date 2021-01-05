@@ -1,0 +1,2 @@
+Write a function where given two arrays of integers of integers, find the pair of integers (1 from each array) whose abs difference is as close to 0.
+For this problem, just assume that there is only pair of numbers with absolute smallest difference. 
