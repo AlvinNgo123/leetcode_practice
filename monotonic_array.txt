@@ -1,0 +1,4 @@
+Write a function, where given an input array (arr). determines if the array is monotonic.
+Think of a monotonic array as entirely non-increasing or non-decreasing.
+Non-increasing doesn't necessarily mean only decreasing but just that they don't increase (& vice versa for non-decreasing).
+For this situation, we can assume empty and 1 element arrays to be monotonic.
