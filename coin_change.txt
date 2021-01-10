@@ -1,0 +1,3 @@
+Write a function that can compute the fewest number of coins that you need to make up a certain amount.
+You are given coins of difference denominations in a list (coins) and a total amount of money (amt).
+For this situation, you can assume that you have an infinite number of coins and if that amt cannot be made up of any combindation, just return -1.
