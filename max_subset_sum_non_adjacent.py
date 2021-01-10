@@ -5,10 +5,23 @@ def max_subset_sum_non_adjacent(arr):
 	#The max at that specific index is either the sum of that current value plus the maxSum at the index two spots before or the maxSum at the previous index
 	#Due to this, we just need to keep track of and update the prevMaxSum and prevPrevMaxSum.
 	#Everything else remains the same so look at the 2nd soln for more details
+	if len(arr) == 0:
+		return 0
 
+	prevPrevMaxSum = arr[0]
+	if len(arr) == 1:
+		return prevPrevMaxSum
 
+	prevMaxSum = arr[1]
+	if len(arr) == 2:
+		return prevMaxSum
 
+	for i in range(2, len(arr)):
+		currMaxSum = max(prevMaxSum, arr[i]+prevPrevMaxSum)
+		prevPrevMaxSum = prevMaxSum
+		prevMaxSum = currMaxSum
 
+	return prevMaxSum
 
 
 #Runtime: O(n) | Space: O(n)
