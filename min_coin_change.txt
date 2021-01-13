@@ -1,0 +1,3 @@
+Write a function that returns the smallest number of coins it takes to make the amount asked, given the list of coin denominations.
+For this problem, we can go ahead and assume that we have unlimited number of each coin.
+If it's impossible to make the amt with the coins, return -1.
