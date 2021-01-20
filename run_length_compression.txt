@@ -1,0 +1,5 @@
+Write a function, given a non-empty string , that returns a compressed version of that string by encoding its consecutive, identical characters.
+An example compression of "BBBBB" would be "5B".
+However, the character can be any symbol including numbers.
+Therefore, any consecutive sequence that exceeds 9 must be broken up into smaller chunks.
+An example would mean that "CCCCCCCCCCC" would compress to "9C2C".
