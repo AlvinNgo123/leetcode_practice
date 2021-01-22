@@ -1,0 +1,2 @@
+Write a function, given a non-empty list of positive integers representing query wait times, that returns the minimum total time for queries to be executed.
+The queries can be executed in any order.
