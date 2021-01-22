@@ -1,6 +1,32 @@
-#Runtime: O(nlogn) | Space: O(n)
+#Runtime: O(nlogn) | Space: O(1)
 #         where n is the length of queries list
 def min_wait_time(queries):
+    #First sort the queries list in ascending order
+	#Base Cases:
+		#If len of queries is 1, return 0
+		#If len of queries is 2, return first element in queries list
+	#Create a minWait val and a finalMinWait val that are initalized to first element
+	    #Iterate through queries list starting at 3rd element
+		#Increment minWait by prior element
+		#Then increment finalMinWait by minWait
+	#Return finalMinWait
+    queries.sort()
+    if len(queries) == 1:
+        return 0
+    if len(queries) == 2:
+        return queries[0]
+    
+    minWait = queries[0]
+    finalMinWait = queries[0]
+    for i in range(2, len(queries)):
+        minWait += queries[i-1]
+        finalMinWait += minWait
+    return finalMinWait
+    
+
+#Runtime: O(nlogn) | Space: O(n)
+#         where n is the length of queries list
+def min_wait_time2(queries):
     #First sort the list of queries in ascending order
 	#Then create a new list of the same length that represents the wait time to get to that point
 	#Base
