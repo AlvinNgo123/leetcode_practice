@@ -1,0 +1,4 @@
+Write a function that, given an non-empty array of integers with length "n" where the values range from 1 to n (inclusive), returns the first duplicate value.
+For this problem, the first duplicate is the first number that appears twice when reading from left to right.
+It's also possible for more than one number to appear twice but we want to only get the first one that appears twice.
+If none appear twice, return -1.
