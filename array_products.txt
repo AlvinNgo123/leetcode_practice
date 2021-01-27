@@ -1,0 +1,2 @@
+Write a function that, given a nonempty array of integers, returns an array where each of its elements are the products of the all other elements in array.
+For this problem, do NOT use division in the solution.
