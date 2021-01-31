@@ -1,0 +1,4 @@
+Write a function that, given a list of values, returns the list sorted in ascending order using bubble sort.
+Bubble sort works by repeatedly swapping the adjacent elements if they are in the wrong order.
+The swapping occurs continously until we're able to go through a complete pass with no swapping
+  
