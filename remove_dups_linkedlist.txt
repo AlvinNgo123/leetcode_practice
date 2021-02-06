@@ -1,0 +1,3 @@
+Write a function that, given the head of the linkedlist, removes all duplicates from the linked list and returns the editted list.
+Each node in the linkedlist has its own value and a next ptr that points to the next node.
+For this problem, you must modify the linkedlist in place (CANNOT create a new list)
