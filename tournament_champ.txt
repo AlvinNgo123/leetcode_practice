@@ -1,0 +1,7 @@
+Write a function, where given a list of competitions and a list of results, is able to return the team that had the score at the end.
+Every index of competition [[team1, team2], [nextTeam1, nextTeam2], etc] corresponds directly to the index of results [result1, result2, etc].
+Example is competition at index 2 's results are shown in results at index 2
+If results is 1, then team 1 won (& team 2 lost)
+If results is 0, then team 1 lost (& team 2 won)
+The winning team is rewarded 3 pts while the losing team doesn't get any pts.
+For this problem, assume that there is always one team (one champion) with the highest amt of pts. 
