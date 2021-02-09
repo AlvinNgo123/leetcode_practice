@@ -1,0 +1,3 @@
+Write a function that, given a Binary tree, is able to return a list of the sums of its branches going from leftmost to rightmost.
+This "branch sum" is caculated by summing up all values in a path of nodes that start from the root and end at a leaf.
+For this problem, assume the tree implementation has a int value, a left child, and a right child. 
