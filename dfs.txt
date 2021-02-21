@@ -1,0 +1,2 @@
+Write a function that, given a Node class that has a name as a string and its children nodes in a list, returns a list that shows the nodes visited when doing depth first search on entire tree. 
+Depth first search is done by starting at a root node and exploring as far along a path as possible before backtracking (Wikipedia).
