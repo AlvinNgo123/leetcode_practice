@@ -1,0 +1,8 @@
+Write a function that, given a list of red-shirt student heights and blue-shirt student heights, returns whether it's possible for a class photo to be taken.
+
+A possible class photo has 3 requirements:
+1) Only 2 rows of students and all students in front row must be strictly shorter than students in back row
+2) All students in red must be in same row
+3) All students in blue must be in same row
+
+For this problem, you can assume that there is at least 2 students in the class and there's always an equal number of red and blue shirt students.
