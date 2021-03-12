@@ -1,0 +1,3 @@
+Write a function that, given a sorted list on integers, is able to return a sorted array with all integers squared.
+For this problem, the integers can be both negative and positive.
+You can also NOT use the python default sort function in your implementation.
