@@ -1,5 +1,9 @@
 def sorted_squared_arr(array):	
-	#Separate the negatives and positives
+	#Separate the negatives and positives in the array and square them
+	#have two pointers starting at the beginning of positive list and end of negative list
+	#Now, check to see whether current val in pos list or current val in neg list is smaller
+		#whichever is smaller, gets added to the final list and its corresponding ptr gets iterated
+	#If we reach the end of one of the lists first, we push the corresponding ptr val to the final list
 	negatives = []
 	positives = []
 	
@@ -8,9 +12,6 @@ def sorted_squared_arr(array):
 			negatives.append(val*val)
 		else:
 			positives.append(val*val) 
-	
-	print(negatives)
-	print(positives)
 
 	pointerNeg = len(negatives) - 1
 	pointerPos = 0
