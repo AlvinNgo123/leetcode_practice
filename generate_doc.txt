@@ -1,0 +1,3 @@
+Write a function that returns whether a doc can be created with the characters provided.
+The function is given a string representing all possible characters and a string representing the chars that are in the doc meant to be generated.
+The document can only be generated if the amount of chars in the character string is greater than or equal to the amount of chars in the doc string.
