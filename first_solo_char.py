@@ -1,3 +1,5 @@
+#Runtime: O(n) | Space: O(n)
+#		  where n is the length of the string
 def first_solo_char(string):
 	#Initialize a dict that store the strings chars and its count
 	#Iterate through string & fill up dict
