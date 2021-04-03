@@ -1,0 +1,2 @@
+Write a function that, given a string of characters, returns the index of the first character is not repeated (solo) in the rest of the string.
+For this problem, there can be multiple characters that don't repeat but you only want the one that appears first (starting from the left).
