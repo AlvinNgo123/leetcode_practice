@@ -1,0 +1,4 @@
+Write a function that, given a "to be sorted" array and a list containing the desired sort order, returns the array in the desired sorted order.
+For example, if array is [3, 4, 2, 1, 3, 2, 4] and sort is [4, 3, 2, 1].
+Then, the result should be [4, 4, 3, 3, 2, 2, 1].
+For this problem, let's assume that not every value in sort is in array but every value in array is in sort.
