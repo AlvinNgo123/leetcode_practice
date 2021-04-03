@@ -20,3 +20,15 @@ def tandem_pair(bikers1, bikers2, maximize):
 		tandem += max(bikers1[i], bikers2[i])
 	
 	return tandem
+
+bikerL1 = [1, 2, 1, 9, 12, 3]
+bikerL2 = [3, 3, 4, 6, 1, 2]
+maximize = False
+print(tandem_pair(bikerL1, bikerL2, maximize))
+#30
+
+bikerL1 = [1, 2, 1, 9, 12, 3, 1, 54, 21, 231, 32, 1]
+bikerL2 = [3, 3, 4, 6, 1, 2, 5, 6, 34, 256, 123, 32]
+maximize = True
+print(tandem_pair(bikerL1, bikerL2, maximize))
+#816
