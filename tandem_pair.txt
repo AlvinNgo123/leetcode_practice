@@ -1,0 +1,5 @@
+Write a function that, given two lists of bikers and a maximize boolean, returns the maximum or minimum tandem speed sum after pairing riders (1 from each list) 
+A tandem value of biker speed "a" and "b" can be defined as max("a", "b").
+If maximize is true, we want to pair the riders in a way to maximize the tandem speed sum
+If minimize is true, we want to pair the riders in a way to minimize the tandem speed sum
+For this problem, we can assume that both list of bikers are the same length
